@@ -8,7 +8,7 @@ from django.http import HttpResponse
 from bot.load_serif import osomatsu_serif
 
 REPLY_ENDPOINT = 'https://api.line.me/v2/bot/message/reply'
-ACCESS_TOKEN = 'TUH7/K+TXvauXY7sGjPKwEUwtjZ8SMxAjSSpqWf4riJ+8GEQYxYM8a/64Dy938haKJEQzq5qkF915479CGI04ptrreYwTPPImn8kXXLl2GIudBGWohugKgyjJGGcS3koiGptEYXKczX0H4MB09wzrgdB04t89/1O/w1cDnyilFU='
+ACCESS_TOKEN = 'rYTvoltYjict+sn62/9smlVyCnYhMpXiXJbNA2YArzv/smTrVqzfDDIW5VEUKP5SKJEQzq5qkF915479CGI04ptrreYwTPPImn8kXXLl2GLYthbeFhkEAJZl1RYpUvWC1E+dFcOcJCxliGOQhtviOAdB04t89/1O/w1cDnyilFU='
 HEADER = {
     "Content-Type": "application/json",
     "Authorization": "Bearer " + ACCESS_TOKEN
